@@ -1,4 +1,4 @@
-##🚖 NYC Yellow Taxi Trip Data Analysis
+## 🚖 NYC Yellow Taxi Trip Data Analysis
 
 📌 Project Overview
 Project ini bertujuan untuk melakukan analisis data perjalanan taksi NYC (Yellow Taxi) guna mengidentifikasi pola perjalanan, distribusi tarif, serta insight penting yang dapat digunakan untuk pengambilan keputusan berbasis data.
@@ -8,14 +8,14 @@ Analisis dilakukan menggunakan pendekatan:
 3.Machine Learning (Clustering & Classification)
 
 
-🎯 Objectives
+## 🎯 Objectives
 1.Memahami karakteristik dataset perjalanan taksi
 2.Mengidentifikasi pola distribusi jarak dan tarif perjalanan
 3.Mendeteksi outlier dalam data
 4.Mengelompokkan data menggunakan K-Means Clustering
 5.Membangun model klasifikasi menggunakan Decision Tree
 
-📊 Dataset Information
+## 📊 Dataset Information
 Dataset yang digunakan merupakan NYC Yellow Taxi Trip Records, yang berisi informasi seperti:
 1.Pickup & Dropoff datetime
 2.Trip distance
@@ -23,7 +23,7 @@ Dataset yang digunakan merupakan NYC Yellow Taxi Trip Records, yang berisi infor
 4.Fare amount
 5.Payment type
 
-⚙️ Project Workflow
+## ⚙️ Project Workflow
 1. Data Collection
 Dataset diambil dari platform Kaggle
 2. Data Preprocessing
@@ -42,18 +42,18 @@ Scaling data untuk kebutuhan modeling
 K-Means Clustering untuk segmentasi data
 Decision Tree untuk klasifikasi
 
-📈 Data Visualization
+## 📈 Data Visualization
 1.Distribution of Trip Distance
 2.Boxplot Trip Distance (Outlier Detection)
 3.Fare Amount Distribution
 
-🔍 Key Insights
+## 🔍 Key Insights
 1.Sebagian besar perjalanan memiliki jarak pendek (short-distance trips)
 2.Terdapat outlier signifikan pada trip distance dan fare amount
 3.Distribusi fare menunjukkan skewness (tidak merata)
 4.Pola perjalanan menunjukkan potensi segmentasi pelanggan berdasarkan jarak & tarif
 
-🧠 Technologies Used
+## 🧠 Technologies Used
 -Python
 -Pandas
 -NumPy
@@ -62,19 +62,7 @@ Decision Tree untuk klasifikasi
 -Scikit-learn
 -Google Colab
 
-📁 Project Structure
-data-analysis-yellow-taxi-trip-record-NYC/
-│
-├── notebook/
-│   └── analysis.ipynb
-├── images/
-│   ├── histogram_trip_distance.png
-│   ├── boxplot_trip_distance.png
-│   └── density_fare_amount.png
-├── dataset/
-├── README.md
-
-🚀 Conclusion
+## 🚀 Conclusion
 Project ini berhasil menunjukkan bagaimana data perjalanan taksi dapat dianalisis untuk:
 -Menemukan pola penggunaan
 -Mengidentifikasi anomali data
@@ -84,6 +72,6 @@ Analisis ini dapat dikembangkan lebih lanjut untuk kebutuhan:
 -Optimasi rute perjalanan
 -Sistem rekomendasi transportasi
 
-💼 Author
+## 💼 Author
 Muhammad Alvin Maulana
 Mahasiswa Sistem Informasi | Data Analysis Enthusiast
